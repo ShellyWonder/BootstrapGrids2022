@@ -9,4 +9,23 @@
            bottom: 0;
            width: 100%;
        }
-   
+       /*cover image*/
+       .bgImage{
+           width: 100%;
+           background-repeat: no;
+           background-position: center;
+           background-size: cover;
+            /*prevents cover image from scrolling*/
+           background-attachment: fixed;
+           background: url(/img/GridBG.png)
+       }
+       .titleText{
+        font-family: 'Londrina Shadow', cursive;
+        font-size: 5em;
+        text-transform: uppercase;
+        color: yellow;
+       }
+       /*handles min height*/
+       .minHeight{
+           min-height: 80vh;
+       }
