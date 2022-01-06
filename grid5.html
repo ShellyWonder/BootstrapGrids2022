@@ -66,19 +66,50 @@
             <h1>Grid 5</h1>
             <!--row-cols-1 row-cols-md-3-->
             <div class="row row-cols-1 row-cols-md-3 h-100 text-light gy-3">
-                <div class="col cols-md-3">
-                    <div class="bg-secondary h-100 p-2">
-                        COL ONE
+                <div class="col col-md-3">
+                    <div class="bg-secondary h-100 p-3">
+                        <h2>INITIATION</h2>
+                        <ul>
+                            <li> the event listener (located in the bottom &lt;script&gt; tag on the app page) is
+                                triggered by a <em>click</em> on the <em>submit</em> button;
+                            </li><br>
+                            <li>values from the two user input fields (<em>fizzValue</em> and <em>buzzValue</em>) are
+                                passed into the <em>Get Values</em> function;</li><br>
+                        </ul>
                     </div>
                 </div>
-                <div class="col cols-md-6">
-                    <div class="bg-dark h-100 p-2">
-                        COL TWO
+                <div class="col col-md-6">
+                    <div class="bg-dark h-100 p-3">
+                        <h2>LOGIC</h2>
+                        <p> When the <em>fizzBuzz</em> function is called by declaring <em>fbArray</em>, the following
+                            processes occur:
+                        </p>
+                        <ul>
+                            <li>the <em>returnArray</em> array is created;</li> <br>
+
+                            <li>the <em>for</em> loop begins at one (1) and increments the number by one until the
+                                incremented number is equal to 100;</li><br>
+                            <li>each incremented number passes through a boolean test(s) to determine if the number is
+                                to be replaced by the word, <span class="logoFont Fizz">Fizz</span>, <span
+                                    class="logoFont Buzz">Buzz </span> or <span
+                                    class="logoFont FizzBuzz">FizzBuzz</span> (more information in the
+                                <strong>Display</strong> section below); </li><br>
+                            <li>results of each iteration is passed to the <em>returnArray</em> array; </li><br>
+                            <li>the function returns the <em>returnArray</em> array;</li><br>
+                        </ul>
+
                     </div>
                 </div>
-                <div class="col cols-md-3">
-                    <div class="bg-secondary p-2 h-100">
-                        COL THREE
+                <div class="col col-md-3">
+                    <div class="bg-secondary p-3 h-100">
+                        <h2>VALIDATION</h2>
+                        <ul>
+                            <li>inputs are checked to make certain they are integers (numbers) and not strings;</li>
+                            <br>
+
+                            <li>if inputs are numbers treated as strings, the program parses them to integers;</li><br>
+                            <li>If inputs are text, the system will alert the user, "You must enter numbers";</li> <br>
+                        </ul>
                     </div>
                 </div>
             </div>
